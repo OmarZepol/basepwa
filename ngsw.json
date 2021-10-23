@@ -1,0 +1,83 @@
+{
+  "configVersion": 1,
+  "timestamp": 1634952311642,
+  "index": "https://OmarZepol.github.io/basepwa/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://OmarZepol.github.io/basepwa/favicon.ico",
+        "https://OmarZepol.github.io/basepwa/index.html",
+        "https://OmarZepol.github.io/basepwa/main.be12b0da7ba4fde8ece2.js",
+        "https://OmarZepol.github.io/basepwa/manifest.webmanifest",
+        "https://OmarZepol.github.io/basepwa/polyfills.77a1993727a31fa030dd.js",
+        "https://OmarZepol.github.io/basepwa/runtime.18821b64a88c577ecb6a.js",
+        "https://OmarZepol.github.io/basepwa/styles.11cf6b3a7e166a1bde8d.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://OmarZepol.github.io/basepwa/assets/icons/icon-128x128.png",
+        "https://OmarZepol.github.io/basepwa/assets/icons/icon-144x144.png",
+        "https://OmarZepol.github.io/basepwa/assets/icons/icon-152x152.png",
+        "https://OmarZepol.github.io/basepwa/assets/icons/icon-192x192.png",
+        "https://OmarZepol.github.io/basepwa/assets/icons/icon-384x384.png",
+        "https://OmarZepol.github.io/basepwa/assets/icons/icon-512x512.png",
+        "https://OmarZepol.github.io/basepwa/assets/icons/icon-72x72.png",
+        "https://OmarZepol.github.io/basepwa/assets/icons/icon-96x96.png",
+        "https://OmarZepol.github.io/basepwa/assets/shipping.json"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://OmarZepol.github.io/basepwa/assets/icons/icon-128x128.png": "366407f0abc0996314011fecbf13ce18cffa3904",
+    "https://OmarZepol.github.io/basepwa/assets/icons/icon-144x144.png": "574a828b4170ed3c727100fd8e98af4e0196f399",
+    "https://OmarZepol.github.io/basepwa/assets/icons/icon-152x152.png": "c8b91e5782da3ab58413ed7c29b21f853d9c713c",
+    "https://OmarZepol.github.io/basepwa/assets/icons/icon-192x192.png": "7e4016d539329ae9124e96c814c65d59a8b0598c",
+    "https://OmarZepol.github.io/basepwa/assets/icons/icon-384x384.png": "d8220aa4079f100c3aa8e3ad26add22581b67e4c",
+    "https://OmarZepol.github.io/basepwa/assets/icons/icon-512x512.png": "4e2353cfe0ab5ff1ad1df69e53d2c2973fdd0e9e",
+    "https://OmarZepol.github.io/basepwa/assets/icons/icon-72x72.png": "41cd56856695a6127ccf9cad165e003501a92123",
+    "https://OmarZepol.github.io/basepwa/assets/icons/icon-96x96.png": "44b8e44fc2bf5c839bf182638ecd2afd7153d2ab",
+    "https://OmarZepol.github.io/basepwa/assets/shipping.json": "9f9e342c76babd68907ccdb6c8d75b761fac74e1",
+    "https://OmarZepol.github.io/basepwa/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "https://OmarZepol.github.io/basepwa/index.html": "8edf1298f937a35096ba0b7c0b6c29f7de15e82f",
+    "https://OmarZepol.github.io/basepwa/main.be12b0da7ba4fde8ece2.js": "0776ae00ed789373c30d64c7e8891c9c7286c663",
+    "https://OmarZepol.github.io/basepwa/manifest.webmanifest": "5b11e35c68e709b7cac3f52993049cc430ce1626",
+    "https://OmarZepol.github.io/basepwa/polyfills.77a1993727a31fa030dd.js": "4cf661614a4ec3db0f1098456e80b8d00128d1d0",
+    "https://OmarZepol.github.io/basepwa/runtime.18821b64a88c577ecb6a.js": "7e55b36d225118431e7c39e9bc0c06b3379216b2",
+    "https://OmarZepol.github.io/basepwa/styles.11cf6b3a7e166a1bde8d.css": "afdfbd6fa0a454418a996df3f3117579c16d465e"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
